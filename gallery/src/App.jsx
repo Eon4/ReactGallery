@@ -1,15 +1,13 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Gallery } from "./components/gallery"
+import img1 from './assets//images/dog1.jpg'
+
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const imgArray = [img1]
 
   return (
-    <>
-
-    </>
+      <Gallery input_array={imgArray}/>
   )
 }
 
