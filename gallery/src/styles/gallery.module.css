@@ -1,1 +1,12 @@
-/*# sourceMappingURL=gallery.module.css.map */
+.galleryWrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 32px;
+  color: rgb(120, 120, 120);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 8px;
+}
+.galleryWrapper img {
+  width: 100%;
+}/*# sourceMappingURL=gallery.module.css.map */

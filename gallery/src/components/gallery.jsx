@@ -1,4 +1,4 @@
-import style from '../styles/'
+import style from '../styles/gallery.module.scss'
 // import img1 from './assets/images/dog1.jpg'
 
 
